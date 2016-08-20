@@ -9,6 +9,8 @@ log/
 coverage/
 out
 plugins/*
+!plugins/admin
+!plugins/admin/**
 !plugins/pencilblue
 !plugins/pencilblue/**
 !plugins/ga

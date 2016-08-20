@@ -1,0 +1,31 @@
+{
+  "uid": "admin",
+  "name": "PencilBlue Admin",
+  "description": "The admin section of PencilBlue.",
+  "version": "2.0.0",
+  "pb_version": ">=0.6.x",
+  "author": {
+    "name": "PencilBlue",
+    "email": "info@pencilblue.org",
+    "website": "http://pencilblue.org",
+    "contributors": [
+      {
+        "name": "Blake Callens",
+        "email": ""
+      },
+      {
+        "name": "Brian Hyder",
+        "email": ""
+      }
+    ]
+  },
+  "permissions": {
+    "ACCESS_USER": [],
+    "ACCESS_WRITER": [],
+    "ACCESS_EDITOR": [],
+    "ACCESS_MANAGING_EDITOR": []
+  },
+  "main_module": {
+    "path": "admin.js"
+  }
+}
