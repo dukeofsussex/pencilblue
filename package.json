@@ -46,6 +46,8 @@
   },
   "devDependencies": {
     "coveralls": "2.11.12",
+    "eslint": "^3.11.1",
+    "eslint-plugin-react": "^6.8.0",
     "istanbul": "0.4.5",
     "mocha": "2.4.5",
     "mocha-lcov-reporter": "1.2.0",
@@ -57,6 +59,8 @@
   },
   "scripts": {
     "start": "node pencilblue.js",
+    "lint": "./node_modules/.bin/eslint --color **/*.js",
+    "lint:fix": "./node_modules/.bin/eslint --color --fix **/*.js",
     "test": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec --recursive"
   },
   "license": "GPL-3.0",

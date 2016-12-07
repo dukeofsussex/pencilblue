@@ -1,0 +1,10 @@
+/coverage/*
+bower_components
+node_modules
+/plugins/*
+!/plugins/ga
+!/plugins/pencilblue
+!/plugins/portfolio
+!/plugins/sample
+!/plugins/wp_import
+/public/js/lib/*
